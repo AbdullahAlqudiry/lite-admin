@@ -9,6 +9,7 @@
             "email": "abdullah.alqudiry@gmail.com"
         }
     ],
+    "prefer-stable": true,
     "require": {
         "akaunting/setting": "^1.2",
         "awssat/laravel-visits": "^3.0",
