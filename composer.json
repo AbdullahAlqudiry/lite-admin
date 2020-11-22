@@ -1,0 +1,35 @@
+{
+    "name": "alqudiry/lite-admin",
+    "description": "Ready dashboard for your application",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdullah Alqudiry",
+            "email": "abdullah.alqudiry@gmail.com"
+        }
+    ],
+    "require": {
+        "akaunting/setting": "^1.2",
+        "awssat/laravel-visits": "^3.0",
+        "barryvdh/laravel-debugbar": "^3.5",
+        "glhd/aire": "^2.3",
+        "glhd/aire-bootstrap": "^2.0",
+        "guzzlehttp/guzzle": "^7.2",
+        "laravel/ui": "^3.1",
+        "laravelcollective/html": "^6.2",
+        "spatie/laravel-permission": "^3.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alqudiry\\LiteAdmin\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alqudiry\\LiteAdmin\\LiteAdminServiceProvider"
+            ]
+        }
+    }
+}

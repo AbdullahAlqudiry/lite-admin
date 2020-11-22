@@ -1,0 +1,16 @@
+{!! Html::script('lite-admin/assets/libs/jquery/dist/jquery.min.js') !!}
+{!! Html::script('lite-admin/assets/libs/popper.js/dist/umd/popper.min.js') !!}
+{!! Html::script('lite-admin/assets/libs/bootstrap/dist/js/bootstrap.min.js') !!}
+{!! Html::script('lite-admin/assets/libs/pace-progress/pace.min.js') !!}
+{!! Html::script('lite-admin/assets/libs/pjax/pjax.min.js') !!}
+{!! Html::script('lite-admin/assets/js/lazyload.config.js') !!}
+{!! Html::script('lite-admin/assets/js/lazyload.js') !!}
+{!! Html::script('lite-admin/assets/js/plugin.js') !!}
+{!! Html::script('lite-admin/assets/js/nav.js') !!}
+{!! Html::script('lite-admin/assets/js/scrollto.js') !!}
+{!! Html::script('lite-admin/assets/js/toggleclass.js') !!}
+{!! Html::script('lite-admin/assets/js/theme.js') !!}
+{!! Html::script('lite-admin/assets/libs/axios/axios.min.js') !!}
+{!! Html::script('lite-admin/assets/libs/sweetalert2/sweetalert2.min.js') !!}
+{!! Html::script('lite-admin/assets/libs/select2/dist/js/select2.min.js') !!}
+{!! Html::script('lite-admin/assets/js/app.js') !!}
