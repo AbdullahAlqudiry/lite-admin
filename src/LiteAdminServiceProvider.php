@@ -25,12 +25,13 @@ class LiteAdminServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/app/controllers' => app_path('Http/Controllers'),
-            __DIR__.'/app/traits' => app_path('Http/Traits'),
+            __DIR__.'/app/middleware' => app_path('Http/Middleware'),
+            __DIR__.'/app/traits' => app_path('Traits'),
             __DIR__.'/app/models' => app_path('Models'),
             __DIR__.'/database' => database_path('migrations'),
             __DIR__.'/config' => app_path('../config'),
             __DIR__.'/resources' => app_path('../resources'),
-            __DIR__.'/public' => public_path('liteadmin'),
+            __DIR__.'/public' => public_path('lite-admin'),
         ]);
     }
 }
